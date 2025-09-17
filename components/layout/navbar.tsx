@@ -16,7 +16,6 @@ export function Navbar() {
   return (
     <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 lg:px-32">
       <div className="container flex h-16 items-center justify-between px-4">
-        {/* Logo and Brand */}
         <div className="flex items-center space-x-4">
           <div className="flex items-center space-x-2">
             <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
@@ -33,7 +32,6 @@ export function Navbar() {
           </div>
         </div>
 
-        {/* Search Bar - Hidden on mobile */}
         <div className=" md:flex flex-1 max-w-md mx-8">
           <div className="relative w-full">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />

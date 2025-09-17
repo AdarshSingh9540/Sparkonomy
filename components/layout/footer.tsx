@@ -1,14 +1,12 @@
-import { Heart, Github, Twitter, Linkedin, Mail } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Separator } from "@/components/ui/separator"
+import { Heart, Github, Twitter, Linkedin, Mail } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Separator } from "@/components/ui/separator";
 
 export function Footer() {
   return (
-    <footer className="border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <footer className="border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 lg:px-32">
       <div className="container px-4 py-8">
-        {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Brand Section */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
@@ -18,11 +16,14 @@ export function Footer() {
                 <h3 className="text-lg font-semibold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                   Sparkonomy
                 </h3>
-                <p className="text-xs text-muted-foreground -mt-1">Creator Economy</p>
+                <p className="text-xs text-muted-foreground -mt-1">
+                  Creator Economy
+                </p>
               </div>
             </div>
             <p className="text-sm text-muted-foreground">
-              Empowering creators with smart invoice management and financial tools to grow their business.
+              Empowering creators with smart invoice management and financial
+              tools to grow their business.
             </p>
             <div className="flex space-x-2">
               <Button variant="ghost" size="icon" className="h-8 w-8">
@@ -40,7 +41,6 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Product Links */}
           <div className="space-y-4">
             <h4 className="text-sm font-semibold">Product</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
@@ -72,7 +72,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Resources Links */}
           <div className="space-y-4">
             <h4 className="text-sm font-semibold">Resources</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
@@ -104,7 +103,6 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Company Links */}
           <div className="space-y-4">
             <h4 className="text-sm font-semibold">Company</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
@@ -139,21 +137,14 @@ export function Footer() {
 
         <Separator className="my-8" />
 
-        {/* Bottom Footer */}
         <div className="flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
           <div className="flex items-center space-x-1 text-sm text-muted-foreground">
-            <span>© 2024 Sparkonomy. Made with</span>
+            <span>© 2025 Sparkonomy. Made with</span>
             <Heart className="h-4 w-4 text-red-500 fill-current" />
-            <span>for creators worldwide.</span>
-          </div>
-
-          <div className="flex items-center space-x-4 text-sm text-muted-foreground">
-            <span>Version 1.0.0</span>
-            <Separator orientation="vertical" className="h-4" />
-            <span>Status: All systems operational</span>
+            <span>for Sparkonomy.</span>
           </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }
