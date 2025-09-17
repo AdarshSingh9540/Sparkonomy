@@ -1,0 +1,19 @@
+:root {
+  --color-primary: oklch(0.6 0.2 320); /* Purple */
+  --color-secondary: oklch(0.7 0.15 350); /* Pink */
+  --color-accent: oklch(0.7 0.15 60); /* Yellow */
+  --color-destructive: oklch(0.65 0.2 25); /* Red */
+  --color-muted: oklch(0.5 0.15 280); /* Blue-purple */
+  --color-background: #fff;
+  --color-foreground: #222;
+  --color-border: #e5e7eb;
+  --color-success: #22c55e;
+  --color-warning: #facc15;
+  --color-info: #3b82f6;
+  --color-error: #ef4444;
+}
+
+/* Example usage:
+   color: var(--color-primary);
+   background: var(--color-background);
+*/
