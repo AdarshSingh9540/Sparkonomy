@@ -129,8 +129,12 @@ export function CreateInvoiceDialog({
             <Input
               id="dueDate"
               type="date"
-              value={dueDate ? format(dueDate, 'yyyy-MM-dd') : ''}
-              onChange={e => setDueDate(e.target.value ? new Date(e.target.value) : undefined)}
+              value={dueDate ? format(dueDate, "yyyy-MM-dd") : ""}
+              onChange={(e) =>
+                setDueDate(
+                  e.target.value ? new Date(e.target.value) : undefined
+                )
+              }
               required
             />
           </div>
