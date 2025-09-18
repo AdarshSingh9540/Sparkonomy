@@ -25,9 +25,6 @@ export function Navbar() {
               <h1 className="text-lg font-semibold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                 Sparkonomy
               </h1>
-              <p className="text-xs text-muted-foreground -mt-1">
-                Creator Economy
-              </p>
             </div>
           </div>
         </div>

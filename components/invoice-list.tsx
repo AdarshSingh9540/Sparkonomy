@@ -44,7 +44,7 @@ export function InvoiceList() {
             <SelectTrigger className="w-full sm:w-32">
               <SelectValue placeholder="Filter" />
             </SelectTrigger>
-            <SelectContent>
+            <SelectContent className="">
               <SelectItem value="all">All Status</SelectItem>
               <SelectItem value="paid">Paid</SelectItem>
               <SelectItem value="overdue">Overdue</SelectItem>

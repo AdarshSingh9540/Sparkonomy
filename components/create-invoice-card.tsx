@@ -17,7 +17,7 @@ export function CreateInvoiceCard() {
             <Plus className="w-6 h-6 text-primary" />
           </div>
 
-          <h2 className="text-lg font-semibold text-primary mb-2">
+          <h2 className="text-lg font-semibold text-primary mb-2 cursor-pointer">
             Create New Invoice
           </h2>
 
@@ -26,7 +26,7 @@ export function CreateInvoiceCard() {
           </p>
 
           <div className="space-y-3">
-            <Button onClick={() => setShowDialog(true)} className="w-full ">
+            <Button onClick={() => setShowDialog(true)} className="w-full cursor-pointer">
               <Plus className="w-4 h-4 mr-2" />
               Create Invoice
             </Button>

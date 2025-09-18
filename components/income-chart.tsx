@@ -55,7 +55,7 @@ export function IncomeChart() {
             tickFormatter={(value) => `${value}%`}
           />
           <ChartTooltip content={<ChartTooltipContent />} />
-          <Bar yAxisId="left" dataKey="income" fill="var(--color-income)" radius={[4, 4, 0, 0]} />
+          <Bar yAxisId="left" dataKey="income" fill="var(--color-primary)" radius={[4, 4, 0, 0]} />
           <Line yAxisId="right" type="monotone" dataKey="growth" stroke="var(--color-growth)" strokeWidth={2} />
         </ComposedChart>
       </ChartContainer>

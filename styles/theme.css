@@ -1,5 +1,5 @@
-:root {
-  --color-primary: oklch(0.6 0.2 320); /* Purple */
+:root { 
+ --color-primary: oklch(41.36% 0.186 307.79); /* Purple */
   --color-secondary: oklch(0.7 0.15 350); /* Pink */
   --color-accent: oklch(0.7 0.15 60); /* Yellow */
   --color-destructive: oklch(0.65 0.2 25); /* Red */
